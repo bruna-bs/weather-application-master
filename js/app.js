@@ -28,6 +28,7 @@ if (IsDayTime) {
     timeImg.src = './src/night.svg'
 }
 
+
     timeIconContainer.innerHTML = timeIcon
     cityNameContainer.textContent = LocalizedName
     cityWeatherContainer.textContent = WeatherText
